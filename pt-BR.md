@@ -23,8 +23,8 @@
 ```bash
 git clone https://github.com/yourusername/custom-resolution-for-linux.git
 cd custom-resolution-for-linux
-chmod +x custom-resolution.sh
-./custom-resolution.sh
+chmod +x custom-resolution-br.sh
+./custom-resolution-br.sh
 ```
 
  ## Argumentos da linha de comando
@@ -36,8 +36,8 @@ chmod +x custom-resolution.sh
 
  Exemplos:
 ```bash
-./custom-resolution.sh --no-apply
-./custom-resolution.sh --no-apply --apply-on-startup
+./custom-resolution-br.sh --no-apply
+./custom-resolution-br.sh --no-apply --apply-on-startup
 ```
 
  ## Locais de arquivo
@@ -50,4 +50,4 @@ chmod +x custom-resolution.sh
  - Backup de resolução anterior: `~/.config/custom-resolution/previous_resolution`
 
  ### Entrada automática
- - Entrada na área de trabalho: `~/.config/autostart/custom-resolution.desktop`
+ - Local: `~/.config/autostart/custom-resolution.desktop`

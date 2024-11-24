@@ -23,8 +23,8 @@ A bash script to easily manage custom display resolutions on Linux using xrandr.
 ```bash
 git clone https://github.com/yourusername/custom-resolution-for-linux.git
 cd custom-resolution-for-linux
-chmod +x custom-resolution.sh
-./custom-resolution.sh
+chmod +x custom-resolution-en.sh
+./custom-resolution-en.sh
 ```
 ## Command Line Arguments
 
@@ -35,8 +35,8 @@ When creating a new resolution the script accepts these arguments:
 
 Examples:
 ```bash
-./custom-resolution.sh --no-apply
-./custom-resolution.sh --apply-on-startup
+./custom-resolution-en.sh --no-apply
+./custom-resolution-en.sh --no-apply --apply-on-startup
 ```
 
 ## File Locations
@@ -49,4 +49,4 @@ The script manages several files across your system:
 - Previous resolution backup: `~/.config/custom-resolution/previous_resolution`
 
 ### Autostart Entry
-- Desktop entry: `~/.config/autostart/custom-resolution.desktop`
+- Location: `~/.config/autostart/custom-resolution.desktop`
