@@ -1,4 +1,4 @@
-# Gerente de resolução personalizada para Linux
+# Gerador de resolução personalizada para Linux
 
  Um script bash para gerenciar facilmente resoluções de exibição personalizadas no Linux usando o XRANDR.
 
