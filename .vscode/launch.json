@@ -1,0 +1,45 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'custom-resolution-for-linux'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=custom-resolution-for-linux",
+                    "--package=custom-resolution-for-linux"
+                ],
+                "filter": {
+                    "name": "custom-resolution-for-linux",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'custom-resolution-for-linux'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=custom-resolution-for-linux",
+                    "--package=custom-resolution-for-linux"
+                ],
+                "filter": {
+                    "name": "custom-resolution-for-linux",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
